@@ -19,7 +19,7 @@ class HomeControllerTest {
 
     @Test
     void hello(){
-        ResponseEntity<String> response = restTemplate.getForEntity("/aws/v1", String.class);
+        ResponseEntity<String> response = restTemplate.getForEntity("/aws/v2", String.class);
         /*TODO
             1번째 매개변수가 2번째 매개변수랑 같다면 어쩌구 하는거 = assertEqulas
          */
